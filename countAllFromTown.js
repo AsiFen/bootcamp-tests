@@ -1,29 +1,22 @@
 function countAllFromTown(regString, locator) {
   var regList = regString.split(",")
   var arrTownNo = []
+ 
+  if (regString !== '' && locator !== '') {
 
-  if (regString !== null && regString !== "") {
-    if (locator !== null && locator !== "") {
-
-      for (var i = 0; i < regList.length; i++) {
-        var reg = regList[i].trim()
-        if (reg.startsWith(locator)) {
-          arrTownNo.push(reg)
-        }
+    for (var i = 0; i < regList.length; i++) {
+      var reg = regList[i].trim()
+      if (reg.startsWith(locator)) {
+        arrTownNo.push(reg)
       }
-      return arrTownNo.length
     }
+    return arrTownNo.length
   }
-
-  else if (regString == null || regString == "") {
-    return "Registration string is mising."
+  else if (regString === '' || regString == null) {
+    return "Registration number is missing."
   }
-  else if (locator === null || locator === "") {
-    return "locator is mising."
-  }
-
-  else {
-    return "Pleas enter registration string and locator"
+  else if (locator === '' || locator == null) {
+    return "Locator is missing."
   }
 }
-console.log(countAllFromTown('',))
+console.log(countAllFromTown('', 'CA'))

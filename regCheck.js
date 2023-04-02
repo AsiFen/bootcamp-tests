@@ -1,6 +1,11 @@
 function regCheck(regPlate, locator){
+    if (regPlate !== '' && locator !== ''){
     return regPlate.endsWith(locator)
     }
+    else {
+        return "Registration plate or locator is missing."
+    }
+}
     console.log(regCheck("","GP" ))
     //assert.equal(regCheck('DC 55 YU GP', 'GP'), true);
 // assert.equal(regCheck('DC 55 YU GP', 'EC'), false);
