@@ -6,4 +6,4 @@ if (weekDay === "Monday" || weekDay ==="Tuesday" || weekDay ==="Wednesday" || we
 else {
     return false
     } 
-}
+}console.log(isWeekday(""))

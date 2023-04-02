@@ -1,14 +1,14 @@
-describe("Name of function", function () {
-    describe("", function () {
+describe("isFromBellville function", function () {
+    describe("Check if a car's registration is from Bellvile or not.", function () {
 
-        it("", function () {
-            assert.equal(regCheck("", ""),)
+        it("should return true if car registration starts with CY", function () {
+            assert.equal(isFromBellville("CY 31314"), true)
         });
-        it("", function () {
-            assert.equal(regCheck("", ""),)
+        it("should return 'Please enter car registration' if no data is entered.", function () {
+            assert.equal(isFromBellville(""),'Please enter car registration.')
         });
-        it("", function () {
-            assert.equal(regCheck("", ""),)
+        it("should return false if car registration does not start with CY", function () {
+            assert.equal(isFromBellville("CT 1234"), false)
         });
 
     });

@@ -1,9 +1,13 @@
-function greet(name){
-    if(name) {
-return "Hello, " + name
+function greet(name) {
+    if (typeof name === "string" && name !== "") {
+        return "Hello, " + name
+    }
+    else if (typeof name == "number") {
+        return "That is an integer, enter name please."
+    }
+
+    else {
+        return "Please enter a name."
+    }
 }
-else {
-    return false
-}
-}
-console.log(greet());
+console.log(greet(123));
