@@ -8,7 +8,6 @@ describe('Greet function', function () {
     });
     it('should return "Please enter a name." when a string is not entered.', function () {
       assert.equal(greet(), 'Please enter a name.');
-
     });
 
     it('should return "That is an integer, enter name please." when an interger is entered.', function () {

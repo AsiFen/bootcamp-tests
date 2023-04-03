@@ -32,5 +32,6 @@ var salesData = [
   {department : 'hardware', sales : 0, day : 'Monday'},
   {department : 'outdoor', sales : 0, day : 'Monday'},
 
+  
 ];
 console.log(mostProfitableDepartment(salesData))

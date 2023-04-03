@@ -10,7 +10,6 @@ describe("isFromBellville function", function () {
         it("should return false if car registration does not start with CY", function () {
             assert.equal(isFromBellville("CT 1234"), false)
         });
-
     });
 
 });

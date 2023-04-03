@@ -10,7 +10,6 @@ describe("countRegNumber function", function () {
         it("should return 1 when registration list is separated by a dot and not expected comma.", function () {
             assert.equal(countRegNumber("CA 42665. AA 12 RT GP"),1)
         });
-
     });
 
 });

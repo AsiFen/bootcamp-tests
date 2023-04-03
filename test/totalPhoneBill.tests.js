@@ -10,7 +10,6 @@ describe("totalPhoneBill function", function () {
         it("should return 'Bill is empty.' when bill data is not entered.", function () {
             assert.equal(totalPhoneBill(""),'Phone bill is empty.')
         });
-
     });
 
 });

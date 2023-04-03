@@ -9,7 +9,6 @@ describe("regCheck function", function () {
         });
         it("should return 'Registration plate or locator is missing.' if locator missing", function () {
             assert.equal(regCheck("DC 55 YU GP", ""), 'Registration plate or locator is missing.')
-
         });
 
     });

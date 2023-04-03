@@ -10,4 +10,5 @@ function greet(name) {
         return "Please enter a name."
     }
 }
+
 console.log(greet(123));

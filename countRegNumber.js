@@ -7,4 +7,5 @@ function countRegNumber(reg) {
   else {
     return "Please enter valid registration"
   }
-} console.log(countRegNumber(''))
+}
+ console.log(countRegNumber(''))

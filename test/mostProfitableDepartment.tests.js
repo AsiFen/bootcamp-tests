@@ -25,7 +25,6 @@ describe("mostProfitableDepartment function", function () {
             ];
             assert.deepEqual(mostProfitableDepartment(salesData), 'hardware')
         });
-
     });
 
 });

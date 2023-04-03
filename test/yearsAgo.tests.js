@@ -10,7 +10,6 @@ describe("yearsAgo function", function () {
         it("shoudld return a 'Please enter a year' when no year is entered", function () {
             assert.equal(yearsAgo(),"Please enter a year.")
         });
-
     });
 
 });

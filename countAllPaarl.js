@@ -9,7 +9,6 @@ function countAllPaarl(registration) {
       if (rreg.length !== 6 ) {
         return "Registration must be 6 digits."
       }
-
       else if (rreg.startsWith("CJ")) {
         arrReg.push(rreg)
         count += 1

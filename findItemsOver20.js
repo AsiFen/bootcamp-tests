@@ -11,7 +11,6 @@ function findItemsOver20(itemList) {
       return "No items with quantity over 20."
     }
     return items
-
   }
   else {
     return "You have entered an empty list."

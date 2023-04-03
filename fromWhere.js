@@ -13,7 +13,6 @@ function fromWhere(reg) {
       return "Some other town!"
     }
   }
-
   else {
     return "Please enter registration."
   }

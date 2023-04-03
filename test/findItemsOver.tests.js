@@ -8,7 +8,6 @@ describe("findItemsOver function", function () {
                 {name : 'bananas', qty : 27},
                 {name : 'apples', qty : 3},
             ];
-            
             assert.deepEqual(findItemsOver(itemList, 27),[{name : 'pears', qty : 37}])
         });
         it("should return a 'No items had quantities over the threshold.' when threshold of a 100 is entered", function () {

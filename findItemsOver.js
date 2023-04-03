@@ -15,6 +15,7 @@ function findItemsOver(itemsList, threshold) {
   else {
     return "You have entered an empty list."
   }
+  
 }
 var itemList = [
   {name : 'apples', qty : 10},

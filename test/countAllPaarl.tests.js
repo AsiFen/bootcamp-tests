@@ -11,7 +11,6 @@ describe('countAllPaarl function', function () {
         });
         it('should return a "Please enter valid registration list." when no data is entered.', function () {
             assert.equal(countAllPaarl(""), 'Please enter valid registration list.');
-
         });
     });
 });

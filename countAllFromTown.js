@@ -10,6 +10,7 @@ function countAllFromTown(regString, locator) {
         arrTownNo.push(reg)
       }
     }
+    
     return arrTownNo.length
   }
   else if (regString === '' || regString == null) {

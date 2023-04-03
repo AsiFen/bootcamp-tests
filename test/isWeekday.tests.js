@@ -17,7 +17,6 @@ describe("isWeekday of function", function () {
             assert.equal(isWeekday(""),false)
         });
 
-
     });
 
 });

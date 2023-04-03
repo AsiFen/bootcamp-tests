@@ -22,4 +22,5 @@ function totalPhoneBill(billString) {
     return "Phone bill is empty."
   }
 }
+
 console.log(totalPhoneBill("asisipho fente"))

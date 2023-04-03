@@ -10,7 +10,6 @@ describe("transportFee function", function () {
         it("should return 'Please enter your shift.' when  shift data is empty.", function () {
             assert.equal(transportFee(""), 'Please enter your shift.')
         });
-
     });
 
 });

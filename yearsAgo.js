@@ -8,4 +8,5 @@ function yearsAgo(yearThen) {
     return "Please enter a year."
   }
 }
+
 console.log(yearsAgo())

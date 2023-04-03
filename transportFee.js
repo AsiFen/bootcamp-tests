@@ -10,6 +10,7 @@ function transportFee(shift) {
         return "free"
     }
   }
+  
   else{
     return "Please enter your shift."
 

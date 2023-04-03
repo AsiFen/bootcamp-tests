@@ -10,4 +10,5 @@ function isFromBellville(numberPlate) {
     else {
         return "Please enter car registration."
     }
+    
 }

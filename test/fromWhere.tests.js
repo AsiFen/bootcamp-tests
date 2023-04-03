@@ -1,6 +1,5 @@
 describe("fromWhere function", function () {
     describe("Checks from which town a registration number is from", function () {
-
         it("should return 'Please enter registration' when not input is given", function () {
             assert.equal(fromWhere(""),'Please enter registration.')
         });
