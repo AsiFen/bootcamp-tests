@@ -23,7 +23,7 @@ describe("mostProfitableDepartment function", function () {
                 {department : 'hardware', sales : 1500, day : 'Wednesday'},
 
             ];
-            assert.deepEqual(mostProfitableDepartment(salesData), 'hardware')
+            assert.equal(mostProfitableDepartment(salesData), 'hardware')
         });
     });
 

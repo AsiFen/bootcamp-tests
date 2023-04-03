@@ -1,7 +1,7 @@
 describe("countRegNumber function", function () {
     describe("Count how many registration numbers are in the string", function () {
 
-        it("should return the number 2", function () {
+        it("should return 2 when a list of registration numbers is entered and there are two registration numbers entered.", function () {
             assert.equal(countRegNumber('CA 42665, AA 12 RT GP'),2)
         });
         it("should return 'Please enter valid registration' when no registration list is entered.", function () {

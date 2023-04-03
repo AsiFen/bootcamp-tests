@@ -1,7 +1,7 @@
 
 describe('countAllFromTown function', function () {
     describe('This function counts how many car registration numbers are from a chosen town.', function () {
-        it('should return 2', function () {
+        it('should return 2 when a list of registration numbers is entered and the locator matches 2 of the registration plates.', function () {
             assert.equal(countAllFromTown("CA 123456, CY789101, CJ112131, CA 101111", "CA"), 2);
 
         });
