@@ -15,5 +15,9 @@ describe('countAllFromTown function', function () {
 
         });
 
+        // it('returns an empty array', () => {
+        //     assert.equal(countAllFromTown(""), []);
+        // })
+
     });
 });
